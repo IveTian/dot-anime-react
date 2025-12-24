@@ -1,0 +1,36 @@
+{
+  "name": "dot-anime-react",
+  "version": "1.0.0",
+  "description": "A lightweight React dot matrix animation component with zero dependencies",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --minify --clean",
+    "dev": "tsup src/index.ts --format cjs,esm --watch --dts",
+    "demo": "vite demo",
+    "lint": "eslint src"
+  },
+  "keywords": [],
+  "author": "Patrick Tien",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "@vitejs/plugin-react": "^5.1.2",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.7.0"
+  }
+}
