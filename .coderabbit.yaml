@@ -1,0 +1,17 @@
+language: en-US
+reviews:
+  auto_review:
+    enabled: true
+    drafts: false
+  request_changes_workflow: true
+  high_level_summary: true
+  poem: false
+  review_status: true
+  collapse_walkthrough: false
+  path_instructions:
+    - path: "src/**"
+      instructions: "Review React component code for best practices, performance, and accessibility."
+    - path: "demo/**"
+      instructions: "This is demo code, focus on functionality rather than production quality."
+chat:
+  auto_reply: true
