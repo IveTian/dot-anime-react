@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "WebSearch",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:ui.paceui.com)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(npm install:*)"
+    ]
+  }
+}
