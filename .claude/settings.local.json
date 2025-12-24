@@ -7,7 +7,8 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:ui.paceui.com)",
       "WebFetch(domain:api.github.com)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "WebFetch(domain:github.blog)"
     ]
   }
 }

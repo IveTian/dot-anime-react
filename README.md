@@ -8,7 +8,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/dot-anime-react.svg?style=flat-square)](https://www.npmjs.com/package/dot-anime-react)
 [![bundle size](https://img.shields.io/bundlephobia/minzip/dot-anime-react?style=flat-square)](https://bundlephobia.com/package/dot-anime-react)
 [![license](https://img.shields.io/npm/l/dot-anime-react.svg?style=flat-square)](https://github.com/nicepkg/dot-anime-react/blob/main/LICENSE)
-
+[![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/IveTian/dot-anime-react?utm_source=oss&utm_medium=github&utm_campaign=IveTian%2Fdot-anime-react&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)]
 [Features](#features) · [Installation](#installation) · [Quick Start](#quick-start) · [Components](#components) · [API](#api-reference)
 
 </div>

@@ -8,9 +8,10 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    environment: npm-publish  # Required for OIDC Trusted Publishing
     permissions:
       contents: read
-      id-token: write
+      id-token: write  # Required for npm provenance / OIDC
     steps:
       - name: Checkout
         uses: actions/checkout@v4
