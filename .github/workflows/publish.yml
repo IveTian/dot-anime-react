@@ -83,6 +83,7 @@ jobs:
       - name: Configure package for GitHub Packages
         run: |
           npm pkg set name='@IveTian/dot-anime-react'
+          npm pkg set publishConfig.registry='https://npm.pkg.github.com'
 
       - name: Publish to GitHub Packages
         run: npm publish
