@@ -1,6 +1,6 @@
 {
   "name": "dot-anime-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight React dot matrix animation component with zero dependencies",
   "type": "module",
   "main": "./dist/index.cjs",
